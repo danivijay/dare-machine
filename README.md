@@ -2,7 +2,7 @@
 Dare Game for Everyone
 
 ## About
-A date game with customisable datasets of tasks.
+A dare game with customisable datasets of tasks.
 
 ## Features
 * Datasets designed for various types of people, like couples, friends.

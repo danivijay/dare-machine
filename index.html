@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x ua compatible" content="ie-edge">
+    <title>Dare Machine</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./assets/lib/material.min.css">
+    <script defer src="./assets/lib/material.min.js"></script>
+    <style>
+    	.center {
+    		text-align: center; padding: 10px;
+    	}
+    </style>
+</head>
+
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Dare Machine</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="https://github.com/danivijay/dare_machine">Github</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Dare Machine</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="https://github.com/danivijay/dare_machine">Github</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid">
+            	<div class="mdl-cell mdl-cell--4-col">
+                	
+                </div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+                	<div class="center dare-data"><!-- Dynamic Data here --></div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                	
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                	
+                </div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+                	<div class="center"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">Go</button></div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                	
+                </div>
+            </div>
+            <!-- Your content goes here -->
+        </main>
+    </div>
+    <script id="dare-data" type="text/template">
+    	<div class="center dare-data"><h2>{{daretext}}</h2></div>
+    </script>
+</body>
+
+</html>

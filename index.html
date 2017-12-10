@@ -7,8 +7,8 @@
     <meta http-equiv="x ua compatible" content="ie-edge">
     <title>Dare Machine</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="./assets/lib/material.min.css">
-    <script defer src="./assets/lib/material.min.js"></script>
+    <link rel="stylesheet" href="./assets/lib/materialdesignlite/material.min.css">
+    <script defer src="./assets/lib/materialdesignlite/material.min.js"></script>
     <style>
     	.center {
     		text-align: center; padding: 10px;
@@ -60,6 +60,12 @@
     </div>
     <script id="dare-data" type="text/template">
     	<div class="center dare-data"><h2>{{daretext}}</h2></div>
+    </script>
+    <script defer src="./assets/lib/es6-promise/es6-promise.min.js"></script>
+    <script defer src="./assets/lib/fetch/fetch.js"></script>
+    <script defer src="./assets/lib/systemjs/system.js"></script>
+    <script>
+    	System.import('./js/app.js');
     </script>
 </body>
 

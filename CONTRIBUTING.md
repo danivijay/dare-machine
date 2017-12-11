@@ -11,19 +11,19 @@ Please check twice if your PR data exist before.
 
 ## Bug Reports
 
-For bug reports or requests [submit an issue](https://github.com/jsroyal/EngineeringBlog/issues).
+For bug reports or requests [submit an issue](https://github.com/danivijay/dare_machine/issues).
 
 ## Pull Requests
 
 The preferred way to contribute is to fork the
 [main repository](https://github.com/danivijay/dare_machine) on GitHub.
 
-1. Fork the [main repository](https://github.com/jsroyal/EngineeringBlog).  Click on the 'Fork' button near the top of the page.  This creates a copy of the code under your account on the GitHub server.
+1. Fork the [main repository](https://github.com/danivijay/dare_machine). Click on the 'Fork' button near the top of the page.  This creates a copy of the code under your account on the GitHub server.
 
 2. Clone this copy to your local disk:
 
         $ git clone git@github.com:YourLogin/dare_machine.git
-        $ cd EnineeringBlog
+        $ cd dare_machine
 
 3. Create a branch to hold your changes and start making changes. Don't work in the `master` branch!
 

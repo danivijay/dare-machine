@@ -1,0 +1,13 @@
+{
+  "name": "dare_machine",
+  "version": "1.0.0",
+  "description": "Dare Machine",
+  "scripts": {},
+  "author": "Dani Vijay",
+  "license": "MIT",
+  "dependencies": {
+    "systemjs": "^0.20.19",
+    "whatwg-fetch": "1.0.0"
+  },
+  "devDependencies": {}
+}

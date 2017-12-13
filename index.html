@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="./assets/lib/materialdesignlite/material.min.css">
     <script defer src="./assets/lib/materialdesignlite/material.min.js"></script>
     <style>
-    	.center {
-    		text-align: center; padding: 10px;
-    	}
+    .center {
+        text-align: center;
+        padding: 10px;
+    }
     </style>
 </head>
 
@@ -36,36 +37,37 @@
         </div>
         <main class="mdl-layout__content">
             <div class="mdl-grid">
-            	<div class="mdl-cell mdl-cell--4-col">
-                	
+                <div class="mdl-cell mdl-cell--4-col">
                 </div>
                 <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
-                	<div class="center dare-data"><!-- Dynamic Data here --></div>
+                    <div class="center dare-data">
+                        <!-- Dynamic Data here -->
+                    </div>
                 </div>
                 <div class="mdl-cell mdl-cell--4-col">
-                	
                 </div>
                 <div class="mdl-cell mdl-cell--4-col">
-                	
                 </div>
                 <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
-                	<div class="center"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">Go</button></div>
+                    <div class="center">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">Go</button>
+                    </div>
                 </div>
                 <div class="mdl-cell mdl-cell--4-col">
-                	
                 </div>
             </div>
             <!-- Your content goes here -->
         </main>
     </div>
     <script id="dare-data" type="text/template">
-    	<div class="center dare-data"><h2>{{daretext}}</h2></div>
+        <div class="center dare-data">
+            <h2>{{daretext}}</h2></div>
     </script>
     <script defer src="./assets/lib/es6-promise/es6-promise.min.js"></script>
     <script defer src="./assets/lib/fetch/fetch.js"></script>
-    <script defer src="./assets/lib/systemjs/system.src.js"></script>
+    <script defer src="./node_modules/systemjs/dist/system.js"></script>
     <script>
-    	System.import('./js/app.js');
+    System.import('./js/app.js');
     </script>
 </body>
 

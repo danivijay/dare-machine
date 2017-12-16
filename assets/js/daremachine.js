@@ -1,4 +1,4 @@
-define(||, function(){
+define([], function(){
 	var apiUrlPath = "https://danivijay.com/dare-machine/service/";
 	var apiUrlDataset = apiUrlPath + 'fetch-dataset.php';
 	

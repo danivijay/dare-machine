@@ -6,6 +6,7 @@
   "author": "Dani Vijay",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.2",
     "systemjs": "^0.20.19",
     "whatwg-fetch": "^1.0.0"
   },

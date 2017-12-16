@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "systemjs": "^0.20.19",
-    "whatwg-fetch": "1.0.0"
+    "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {}
 }

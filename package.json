@@ -2,7 +2,9 @@
   "name": "dare_machine",
   "version": "1.0.0",
   "description": "Dare Machine",
-  "scripts": {},
+  "scripts": {
+    "start": "node assets/js/app.js"
+  },
   "author": "Dani Vijay",
   "license": "MIT",
   "dependencies": {

@@ -1,5 +1,5 @@
 # Dare Machine
-Dare Game for Everyone
+There is a Dare Game, for Everyone
 
 ## About
 A dare game with customizable datasets of tasks.

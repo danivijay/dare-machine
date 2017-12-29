@@ -14,6 +14,7 @@ A dare game with customizable datasets of tasks.
 * JavaScript and PHP
 * JSON for datasets
 * PWA
+* VueJS
 
 ## Links
 * Testing Server : https://github.com/danivijay/dm_server

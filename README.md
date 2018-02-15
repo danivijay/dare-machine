@@ -11,10 +11,8 @@ A dare game with customizable datasets of tasks.
 * Timer for time bound tasks.
 
 ## Tech Specs
-* JavaScript and PHP
-* JSON for datasets
-* PWA
-* VueJS
+* VueJS PWA Front-end
+* Express API
 
 ## Links
 * Testing Server : https://github.com/danivijay/dm_server

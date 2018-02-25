@@ -12,7 +12,7 @@ A dare game with customizable datasets of tasks.
 
 ## Tech Specs
 * VueJS PWA Front-end
-* Express API
+* Node - Express API Back-end
 
 ## Links
 * Testing Server : https://github.com/danivijay/dm_server

@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "Dare Machine",
   "scripts": {
-    "start": "node assets/js/app.js"
+    "start": "node app.js"
   },
   "author": "Dani Vijay",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2",
-    "systemjs": "^0.20.19",
-    "whatwg-fetch": "^1.0.0"
+    "express": "^4.16.2"
   },
   "devDependencies": {}
 }
